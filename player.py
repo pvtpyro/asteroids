@@ -7,6 +7,7 @@ class Player(CircleShape):
 
     def __init__(self, x:int, y:int, radius:int):
         super().__init__(x, y, PLAYER_RADIUS)
+        self.speed:int = 0
         self.rotation:int = 0
 
     # in the player class
