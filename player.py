@@ -5,10 +5,10 @@ import pygame
 
 class Player(CircleShape):
 
-    def __init__(self, x:int, y:int, radius:int):
+    def __init__(self, x, y, radius):
         super().__init__(x, y, PLAYER_RADIUS)
-        self.speed:int = 0
-        self.rotation:int = 0
+        self.speed = 0
+        self.rotation = 0
 
     # in the player class
     def triangle(self):
